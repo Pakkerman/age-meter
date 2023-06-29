@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-poppins-400i {
+  font-family: poppins;
+  font-weight: 400;
+}
+.font-poppins-700 {
+  font-family: poppins;
+  font-weight: 700;
+}
+.font-poppins-800 {
+  font-family: poppins;
+  font-weight: 800;
+}
+
+body {
+  @apply font-poppins-400i bg-slate-300 text-black;
+}
+
+.pre {
+  @apply bg-red-400 bg-opacity-30  sm:bg-blue-400 sm:bg-opacity-30 md:bg-green-400  md:bg-opacity-30 lg:bg-cyan-400 lg:bg-opacity-30;
+}
